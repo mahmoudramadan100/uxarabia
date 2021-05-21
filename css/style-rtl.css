@@ -1,0 +1,1497 @@
+@font-face {
+  font-family: MyriadArabic;
+  src: url("../webfonts/MyriadArabic-Regular.otf");
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6, a, p, ul {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+body {
+  background: #fafafa;
+  direction: rtl;
+  font-family: MyriadArabic ;
+}
+
+input:focus {
+  outline: none;
+}
+.back {
+  background: transparent !important;
+  color: #FFF !important;
+  font-weight: 300;
+}
+.back:hover {
+ border: 2px solid transparent !important
+}
+
+/*===================== Common CSS ends here ======================*/
+.hd, #course-t .head h2, #challenge .head h2, #certi .head h2, #form .head h2, #faq .head h2 {
+  font-family: MyriadArabic ;
+    font-weight: 700;
+  color: #212121;
+  font-size: 48px;
+}
+
+.cl {
+  font-size: 28px;
+  font-family: MyriadArabic ;
+  font-weight: 700;
+  color: #212121;
+}
+
+/*===================== Header start ======================*/
+
+
+header {
+  position: relative;
+}
+header #navigation nav {
+  position: absolute;
+  width: 100%;
+  background: none !important;
+  top: 33px;
+  text-align: center;
+}
+
+
+header #banner {
+  background: url('../images/banner.png') no-repeat top;
+  background-size: cover;
+  padding-bottom: 220px;
+  padding-top: 120px;
+  padding-left: 100px;
+
+}
+
+header #banner .banner-cntnt {
+  padding-top: 20px;
+  color: #fff;
+  text-align: right;
+}
+header #banner .banner-cntnt h1 {
+  font-size: 60px;
+  color: #ffffff;
+  font-family: MyriadArabic ;
+    font-weight: 800;
+}
+header #banner .banner-cntnt p {
+  padding-top: 10px;
+  font-family: MyriadArabic ;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+header #banner .banner-cntnt p span {
+  font-family: MyriadArabic ;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+header #banner .banner-cntnt .p {
+  text-align: right;
+  padding-right: 10px;
+  font-weight: normal;
+  font-size: 16px;
+}
+header #banner .banner-cntnt .buy-c {
+  margin-top: 45px;
+  background: #fcd500;
+  color: #404040;
+  line-height: 30px;
+  display: inline-block;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  font-family: MyriadArabic ;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 5px 20px;
+  border-bottom: 5px solid #d0b20b;
+}
+header #banner .banner-cntnt .buy-c:hover {
+  background: #ffde00;
+}
+
+header #banner .banner-cntnt .buy-c span {
+  padding-left:0px;
+  padding-right: 0;
+}
+header #banner .banner-cntnt .padding-buy {
+  padding: 20px;
+}
+
+header #banner .banner-cntnt .buy-c .temp {
+  padding-right: 120px;
+  padding-left: 0;
+  display: inline-block;
+}
+header #banner .banner-cntnt .buy-c .del {
+  opacity: 0.7;
+  text-decoration: line-through;
+  color:#bfa513;
+  font-size: 20px;
+}
+header #banner .banner-cntnt .buy-c .price {
+  color: #404040;
+  font-size: 30px;
+  padding: 0 10px 0 0;
+}
+header #banner .banner-cntnt .login-free {
+    background: transparent;
+    border: 2px solid #FFF;
+    color: #FFF;
+    transition: 0.2s all ;
+    -webkit-transition: 0.2s all ;
+    -moz-transition: 0.2s all ;
+    -ms-transition: 0.2s all ;
+    -o-transition: 0.2s all ;
+    font-weight: normal;
+}
+header #banner .banner-cntnt .login-free span {
+  font-weight: bold;
+}
+header #banner .banner-cntnt .login-free:hover {
+  cursor: pointer;
+  background: transparent;
+  color: #fcd500;
+  border: 2px solid #fcd500;
+  transition: 0.2s all ;
+  -webkit-transition: 0.2s all ;
+  -moz-transition: 0.2s all ;
+  -ms-transition: 0.2s all ;
+  -o-transition: 0.2s all ;
+}
+
+header #banner .intro {
+  text-align: center;
+  position: absolute;
+  left: 130px;
+  top: 170px;
+}
+header #banner .intro li {
+  display: inline-block;
+}
+header #banner .intro li p {
+  font-family: MyriadArabic ;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-right: 15px;
+}
+header #banner .intro .ply {
+  width: 40px;
+  height: 40px;
+  background: #fcd500;
+  text-align: center;
+  line-height: 40px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  color: #2e2e2e;
+  position: relative;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+header #banner .intro .ply i {
+  padding-left: 2px;
+  padding-top: 13px;
+}
+header #banner .ply:after, header #banner .intro .ply:before {
+  position: absolute;
+  content: '';
+  display: block;
+  border: 2px solid #d9d8d2;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  left: -10px;
+  right: -10px;
+  top: -10px;
+  bottom: -10px;
+  animation: animate 1.5s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+header #banner .intro .ply:hover {
+  -webkit-transform: scale(1.11);
+  -moz-transform: scale(1.11);
+  -ms-transform: scale(1.11);
+  -o-transform: scale(1.11);
+  transform: scale(1.11);
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+header #banner .intro .ply:hover:after, header #banner .banner-cntnt .intro .ply:hover:before {
+  opacity: 0;
+  animation: none;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+/*===================== Header end ======================*/
+/*===================== Course-t start ======================*/
+#course-t {
+  margin: 70px 0;
+}
+#course-t .head {
+  margin-bottom: 30px;
+}
+#course-t .head h2 {
+  line-height: 67px;
+  padding-bottom: 15px;
+}
+#course-t .head p {
+  font-family: MyriadArabic;
+  font-size: 22px;
+  color: #6a6868;
+  font-weight: 300;
+  padding: 0 200px;
+  text-align: center;
+  line-height: 30px;
+}
+#course-t .content {
+  margin: 30px 0;
+}
+#course-t .content .txt {
+  padding-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+#course-t .content .txt p {
+  font-family: MyriadArabic ;
+  font-weight: 700;
+  font-size: 24px;
+  color: #2e2e2e;
+}
+#course-t .content .et {
+  padding-top: 40px;
+}
+
+/*===================== Course-t end ======================*/
+/*===================== Offers Start ======================*/
+#offers {
+  margin-top: 160px;
+}
+#offers .background {
+  background-color: #000;
+  padding: 30px 0;
+  -webkit-border-top-left-radius: 30px;
+-webkit-border-top-right-radius: 55px;
+-webkit-border-bottom-right-radius: 20px;
+-webkit-border-bottom-left-radius: 55px;
+-moz-border-radius-topleft: 30px;
+-moz-border-radius-topright: 55px;
+-moz-border-radius-bottomright: 20px;
+-moz-border-radius-bottomleft: 55px;
+border-top-left-radius: 30px;
+border-top-right-radius: 55px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 55px;
+}
+#offers .content p {
+  margin: 30px;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: right;
+  font-weight: bold;
+  margin-right: 70px;
+}
+#offers .offers {
+  text-align: center;
+}
+#offers .offers p {
+ color: #FEE432;
+  background-clip: text;
+ font-size: 17px;
+ text-align: center;
+ display: inline-block;
+}
+#offers .offers .link p {
+  color: #ffffff;
+  font-size: 17px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 40px;
+ }
+
+#offers .offers .text-offers-end  p {
+  color: #959393;
+  font-size: 15px;
+  text-align: center;
+  display: inline-block;
+  font-weight: 300;
+ }
+#offers .offers .link {
+  margin: 10px 0 0;
+}
+#offers .offers .link .price {
+  display: inline-block;
+  float: left;
+}
+#offers .offers .link .price span {
+  font-weight: bold;
+  color: #685F34;
+}
+#offers .offers .link .price .del {
+ opacity: 0.6;
+ text-decoration:line-through;
+ margin-left: 8px;
+}
+
+#offers .offers a p {
+  color: #575239;
+  font-weight: bold;
+}
+#offers .offers a:hover {
+  opacity: 0.8;
+}
+#offers .offers .text-2 {
+  padding: 10px 0;
+}
+#offers .text-2 {
+  position: relative;
+  top: 35px;
+  right: 10px;
+  text-align: right;
+}
+
+#offers .text-2 a {
+  text-decoration: none;
+  background-color: #ffffff;
+  font-size: 15px;
+  text-align: right;
+  border: none;
+  border: 2px solid #000;
+}
+#offers .text-2 .login-free:hover {
+  cursor: pointer;
+  background: transparent;
+  color: #fcd500 !important;
+  border: 2px solid #fcd500;
+  transition: 0.1s all ;
+  -webkit-transition: 0.1s all ;
+  -moz-transition: 0.1s all ;
+  -ms-transition: 0.1s all ;
+  -o-transition: 0.1s all ;
+}
+#offers .text-2 a span {
+  font-weight: bold;
+  font-size: 20px;
+}
+.offers-2 .text-offers-end p {
+  color: #474747 !important;
+
+}
+
+#offers .buy-c {
+  margin-top: 0;
+  background: #fcd500;
+  color: #404040;
+  line-height: 30px;
+  display: inline-block;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  font-family: MyriadArabic ;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 5px 20px;
+  border-bottom: 5px solid #d0b20b;
+}
+#offers .buy-c:hover {
+  background: #ffde00;
+}
+
+#offers .buy-c span {
+  padding-left:0px;
+  padding-right: 0;
+}
+#offers .padding-buy {
+  padding: 20px;
+}
+
+#offers .buy-c .temp {
+  padding-right: 80px;
+  padding-left: 0;
+  display: inline-block;
+}
+#offers  .buy-c .del {
+  opacity: 0.7;
+  text-decoration: line-through;
+  color:#bfa513;
+  font-size: 20px;
+}
+#offers .buy-c .price {
+  color: #404040;
+  font-size: 30px;
+  padding: 0 10px 0 0;
+}
+/*===================== Offers End ======================*/
+
+/*===================== Inst start ======================*/
+#inst {
+  margin-top: 145px;
+  position: relative;
+  background: url(../images/inst-bg-rtl.png) top center;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  text-align: right;
+}
+#inst .abt {
+  position: absolute;
+  top: 0px;
+  right: 0;
+}
+#inst .abt h5 {
+  background: #fcd500;
+  display: inline-block;
+  font-family: MyriadArabic ;
+  font-weight: bold;
+  color: #212121;
+  line-height: 35px;
+  padding: 0 20px;
+  font-size: 14px;
+}
+#inst .content h3 {
+  font-size: 48px;
+  color: #fff;
+  font-family: MyriadArabic ;
+  font-weight: 700;
+  padding-bottom: 5px;
+  padding-top: 90px;
+}
+#inst .content span {
+  font-size: 18px;
+  color: #fcd500;
+  font-family: MyriadArabic ;
+}
+#inst .content p {
+  font-size: 18px;
+  color: #a9b1bf;
+  font-family: MyriadArabic ;
+  font-weight: 700;
+  padding-top: 15px;
+}
+#inst .content ul {
+  margin-top: 22px;
+}
+#inst .content ul li {
+  display: inline-block;
+}
+#inst .content ul li p {
+  font-family: MyriadArabic ;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-right: 20px;
+}
+#inst .content ul .ply {
+  width: 40px;
+  height: 40px;
+  background: #fcd500;
+  text-align: center;
+  line-height: 40px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  color: #2e2e2e;
+  position: relative;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+#inst .content ul .ply i {
+  padding-left: 3px;
+  padding-top: 13px;
+}
+#inst .content ul .ply:after, #inst .content ul .ply:before {
+  position: absolute;
+  content: '';
+  display: block;
+  border: 2px solid #d9d8d2;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  left: -10px;
+  right: -10px;
+  top: -10px;
+  bottom: -10px;
+  animation: animate 1.5s linear infinite;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+@keyframes animate {
+  0% {
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+#inst .content ul .ply:hover {
+  -webkit-transform: scale(1.11);
+  -moz-transform: scale(1.11);
+  -ms-transform: scale(1.11);
+  -o-transform: scale(1.11);
+  transform: scale(1.11);
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+#inst .content ul .ply:hover:after, #inst .content ul .ply:hover:before {
+  opacity: 0;
+  animation: none;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+#inst .cm {
+  position: absolute;
+  top: 55px;
+  left: -1%;
+}
+#inst .cm img {
+  width: 95%;
+}
+
+/*===================== Inst end ======================*/
+
+
+/*===================== Lessonplan Start ======================*/
+
+#lessonplan .pr{
+    position: relative;
+}
+#lessonplan .pa{
+    position: absolute;
+}
+
+/* lesson and plan section start */
+#lessonplan {
+    padding: 130px 0 0;
+    font-family: MyriadArabic ;
+}
+
+#lessonplan .lsp{
+    letter-spacing: 15px;
+}
+
+#lessonplan
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+input,
+span,
+ul,
+li,
+button,p {
+    margin: 0;
+    padding: 0;
+    transition: .2s;
+    -o-transition: .2s;
+    -webkit-transition: .2s;
+    -ms-transition: .2s;
+    -moz-transition: .2s;
+}
+
+#lesson p{
+    color: #9c9c9c;
+}
+
+#lessonplan .xlp{
+    padding: 0;
+}
+
+#lessonplan .lesson {
+	filter: drop-shadow(0px 0px 4px #bcbcbc);
+	padding: 25px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    background: #fff;
+}
+
+#lessonplan .lesson .lesson-heading {
+    justify-content: space-between;
+    border-bottom: 1px solid #ebebeb;
+    -webkit-border-bottom: 1px solid #ebebeb;
+    -moz-border-bottom: 1px solid #ebebeb;
+    -ms-border-bottom: 1px solid #ebebeb;
+    -o-border-bottom: 1px solid #ebebeb;
+    padding-bottom: 18px;
+}
+
+#lessonplan .lesson .lesson-heading h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color:#212121;
+    text-transform: capitalize;
+}
+#lessonplan .lesson .lesson-heading ul li{
+    margin: 0 15px;
+    margin-top: 15px;
+}
+#lessonplan .lesson .lesson-heading ul li a{
+    color: #929292;
+}
+#lessonplan .lesson .lesson-heading ul li i{
+    display: flex;
+    justify-content: center;
+}
+#lessonplan .chaper-heading ul {
+	justify-content: space-between;
+	margin-top: 30px;
+}
+#lessonplan .chaper-heading ul li{
+    color: #fcd500;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+#lessonplan .lesson1 span {
+	font-size: 72px;
+	font-weight: 100;
+	color: #dddddd;
+	top: 15px;
+	display: inline-block;
+}
+#lessonplan .lesson1 {
+	border-bottom: 1px solid #ebebeb;
+	-webkit-border-bottom: 1px solid #ebebeb;
+	-moz-border-bottom: 1px solid #ebebeb;
+	-ms-border-bottom: 1px solid #ebebeb;
+	-o-border-bottom: 1px solid #ebebeb;
+	padding-bottom: 25px;
+	padding-top: 30px;
+}
+.lesson ul.d-flex li .icon {
+  background: #FAFAFA;
+}
+.lesson1.fst.pr.last {
+  border-bottom: 1px solid transparent !important;
+}
+#lessonplan .lesson1.lesson-lst{
+    border-bottom: none;
+    -webkit-border-bottom: none;
+    -moz-border-bottom: none;
+    -ms-border-bottom: none;
+    -o-border-bottom: none;
+    padding-bottom: 0;
+}
+#lessonplan .lesson1 .lhp {
+	padding-left: 100px;
+}
+#lessonplan .lesson1 .lhp ul {
+	justify-content: space-between;
+}
+#lessonplan .lhp ul li a {
+    color: #007c89;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#lessonplan .lhp ul li a:hover{
+    color: #fcd500;
+}
+#lessonplan .lesson1 .lhp h3{
+    font-size: 22px;
+    color: #212121;
+    font-weight: bold;
+}
+#lessonplan .lesson1 .lhp p{
+    font-size: 15px;
+    color: #9c9c9c;
+    padding-top: 5px;
+    font-weight: 400;
+    text-align: right;
+}
+
+#lessonplan .lesson1 .icon {
+  background-color: #FAFAFA;
+  color: #afafaf;
+  padding: 1px 8px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+#lessonplan .lesson1 .icon i {
+  margin-bottom: 7px;
+}
+#lessonplan .plan-heading span {
+	font-weight: 700;
+	font-size: 24px;
+	color: #98a1a2;
+}
+#lessonplan  .plan-heading h2 {
+	font-size: 48px;
+	font-weight: 700;
+    color: #212121;
+    text-transform: capitalize;
+}
+#lessonplan  .plan{
+    position: relative;
+}
+
+
+#lessonplan .plan::after {
+  position: absolute;
+  content: '';
+  height: 95%;
+  width: 1px;
+  border: 1px dashed #c1c5c6;
+  top: 5%;
+  right: 15%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+#lessonplan .plan .plan-content{
+    margin-top: 60px;
+}
+#lessonplan .plan .plan-content .plan-c {
+	margin-top: 18px;
+	display: inline-block;
+	font-size: 13px;
+	color: #fcd500;
+	margin-left: 20px;
+	position: relative;
+    padding-left: 25px;
+}
+#lessonplan .plan .plan-content .plan-c::after {
+	position: absolute;
+	height: 12px;
+	width: 12px;
+	background: #fcd500;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	content: '';
+	right: -39px;
+	top: 6px;
+	z-index: 9;
+}
+
+#lessonplan .plan .plan-content .ford{
+    margin-left: 70px;
+}
+#lessonplan .plan .plan-content .ford::after {
+	left: 126%;
+    right: 0;
+}
+
+#lessonplan .plan .plan-content .fordes{
+ 
+	position: relative;
+	margin-left: 51px;
+	
+	padding: 0;
+
+}
+
+#lessonplan .plan .plan-content .fordes::after {
+	left: 143%;
+    right: 0;
+}
+
+
+#lessonplan .plan .plan-content .plan-c.plan-c-o::after {
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  background: #848484;
+  border-radius: 50%;
+  content: '';
+  right: 10px;
+  top: 40px;
+  z-index: 9;
+}
+#lessonplan .plan .plan-content .plan-c.plan-c-o.one::after {
+  right: 65px;
+}
+#lessonplan .plan .plan-content .plan-c.plan-c-o.two::after {
+  right: 60px;
+}
+#lessonplan .plan .plan-content .plan-m {
+	justify-content: space-between;
+	padding: 25px 20px 0 20px;
+	background: transparent;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 0;
+     -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+
+#lessonplan .plan .plan-content .plan-m li a {
+	font-weight: 800;
+	color: #404040;
+	text-transform: capitalize;
+}
+#lessonplan .plan .plan-content .plan-c.plan-c-o{
+    color: #848484;
+}
+#lessonplan .plan .plan-content .p-c {
+  font-weight: bold;
+	font-size: 16px;
+  margin-left: 0;
+  text-align: right;
+  color: #000;
+}
+#lessonplan .plan .plan-content span {
+	font-weight: 400 !important;
+	color: #9c9c9c !important;
+  font-size: 16px;
+  display: block;
+  margin-left: 0;
+  text-align: right;
+}
+
+#lessonplan .by-c{
+  font-family: MyriadArabic ;
+    font-weight: 700;
+    font-size: 16px;
+    color: #404040;
+}
+
+#lessonplan .d-flex li p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#lessonplan .d-flex.plan-m.plan-m-o li i {
+	font-size: 40px;
+	color: #3b5998;
+}
+#lessonplan   .fa-comment::after {
+	content: "live";
+	position: absolute;
+	font-size: 9px;
+	color: #fff;
+	left: 27px;
+	top: 34px;
+}
+
+
+
+/*===================== Lessonplan End ======================*/
+
+
+
+/*===================== FAQ Start ======================*/
+#faq .head {
+  padding-bottom: 25px;
+  position: relative;
+  margin-top: 135px;
+}
+#faq .head:after {
+  position: absolute;
+  content: '';
+  background: #fcd733;
+  width: 126px;
+  height: 7px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+#faq .mgt {
+  margin-top: 50px;
+}
+#faq .cntnt .cp {
+  -webkit-border-bottom: 1px solid #ccc;
+  -moz-border-bottom: 1px solid #ccc;
+  -ms-border-bottom: 1px solid #ccc;
+  -o-border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 27px;
+  padding-top: 27px;
+}
+#faq .cntnt .cp .cp-head {
+  cursor: pointer;
+}
+#faq .cntnt .cp .cp-head h5 {
+  font-family: MyriadArabic ;
+  font-weight: bold;
+  font-size: 28px;
+  color: #212121;
+  text-align: right;
+  margin-right: 45px;
+}
+#faq .cntnt .cp .cp-body {
+  padding-top: 15px;
+}
+#faq .cntnt .cp .cp-body p {
+  font-size: 18px;
+  color: #212121;
+  font-family: MyriadArabic ;
+  font-weight: 400;
+  text-align: right;
+  margin-right: 45px;
+  width: 80%;
+  line-height: 30px;
+}
+#faq .cntnt .one .cp-head {
+  position: relative;
+}
+#faq .cntnt .one .cp-head i {
+  border: 1px solid #000;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+#faq .cntnt .one .cp-head.collapsed .open {
+  display: none;
+}
+#faq .cntnt .two .cp-head {
+  position: relative;
+}
+#faq .cntnt .two .cp-head i {
+  border: 1px solid #000;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+#faq .cntnt .two .cp-two-fq .open {
+  display: none;
+}
+#faq .cntnt .two .cp-head.collapsed .open {
+  display: none;
+}
+#faq .cntnt .three .cp-head {
+  position: relative;
+}
+#faq .cntnt .three .cp-head i {
+  border: 1px solid #000;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+#faq .cntnt .three .cp-three-fq .open {
+  display: none;
+}
+#faq .cntnt .three .cp-head.collapsed .open {
+  display: none;
+}
+#faq .cntnt .four .cp-head {
+  position: relative;
+}
+#faq .cntnt .four .cp-head i {
+  border: 1px solid #000;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+#faq .cntnt .four .cp-four-fq .open {
+  display: none;
+}
+#faq .cntnt .four .cp-head.collapsed .open {
+  display: none;
+}
+#faq .cntnt .five {
+  border: none;
+}
+#faq .cntnt .five .cp-head {
+  position: relative;
+}
+#faq .cntnt .five .cp-head i {
+  border: 1px solid #000;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+#faq .cntnt .five .cp-five-fq .open {
+  display: none;
+}
+#faq .cntnt .five .cp-head.collapsed .open {
+  display: none;
+}
+#faq .cntnt .six .cp-head {
+  position: relative;
+}
+#faq .cntnt .six .cp-head i {
+  border: 1px solid #000;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+#faq .cntnt .six .cp-six-fq .open {
+  display: none;
+}
+#faq .cntnt .six .cp-head.collapsed .open {
+  display: none;
+}
+#faq .cntnt .svn .cp-head {
+  position: relative;
+}
+#faq .cntnt .svn .cp-head i {
+  border: 1px solid #000;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+#faq .cntnt .svn .cp-svn-fq .open {
+  display: none;
+}
+#faq .cntnt .svn .cp-head.collapsed .open {
+  display: none;
+}
+#faq .cntnt .eit .cp-head {
+  position: relative;
+}
+#faq .cntnt .eit .cp-head i {
+  border: 1px solid #000;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+#faq .cntnt .eit .cp-eit-fq .open {
+  display: none;
+}
+#faq .cntnt .eit .cp-head.collapsed .open {
+  display: none;
+}
+#faq .cntnt .nine .cp-head {
+  position: relative;
+}
+#faq .cntnt .nine .cp-head i {
+  border: 1px solid #000;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+#faq .cntnt .nine .cp-nine-fq .open {
+  display: none;
+}
+#faq .cntnt .nine .cp-head.collapsed .open {
+  display: none;
+}
+#faq .cntnt .ten {
+  border: none;
+}
+#faq .cntnt .ten .cp-head {
+  position: relative;
+}
+#faq .cntnt .ten .cp-head i {
+  border: 1px solid #000;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+#faq .cntnt .ten .cp-ten-fq .open {
+  display: none;
+}
+#faq .cntnt .ten .cp-head.collapsed .open {
+  display: none;
+}
+section#faq {
+  margin-bottom: 150px;
+}
+/*===================== FAQ Start ======================*/
+/*===================== Inter Start ======================*/
+#inter {
+  margin-top: 130px;
+  background: url(../images/inter.png) no-repeat center;
+  background-size: cover;
+}
+#inter .content {
+  margin-top: 50px;
+  padding-bottom: 150px;
+}
+#inter .content .browser {
+  filter: drop-shadow(0px 0px 2px #666);
+  margin-bottom: 25px;
+}
+#inter .content h4 {
+  font-size: 36px;
+  font-family: MyriadArabic ;
+  font-weight: 700;
+  color: #000;
+  padding-bottom: 30px;
+}
+#inter .content p {
+  font-size: 24px;
+  font-family: MyriadArabic ;
+  font-weight: 400;
+  color: #000;
+}
+#inter .content ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+#inter .content ul li p {
+  font-size: 48px;
+  font-family: MyriadArabic ;
+  font-weight: 700;
+  color: #000;
+  padding-top: 22px;
+}
+#inter .content ul li button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+#inter .content ul li:last-child {
+  margin-left: 15px;
+}
+
+/*===================== Inter End ======================*/
+/*===================== Footer Start ======================*/
+footer {
+  background: #28282f;
+}
+footer #contact .content {
+  text-align: right;
+}
+footer #contact .content .brand {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+footer #contact .content p {
+  color: #c6c5c5;
+  font-family: MyriadArabic ;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: right;
+}
+footer #contact .content p span {
+  color: #fcd733;
+}
+footer #contact .content ul {
+  margin-top: 20px;
+}
+footer #contact .content ul li {
+  display: inline-block;
+  margin: 0 8px;
+}
+footer #contact .content ul li i {
+  border: 2px solid #fcd733;
+  width: 40px;
+  height: 40px;
+  color: #fcd733;
+  font-size: 17px;
+  text-align: center;
+  line-height: 40px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+footer #contact .content ul li i.tw:hover {
+  background: #1da1f2;
+  color: #fff;
+  border: 2px solid #1da1f2;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+footer #contact .content ul li i.fb:hover {
+  background: #3b5997;
+  border:2px solid  #3b5997;
+  color: #fff;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+footer #contact .content ul li i.lin:hover {
+  background: #007ab9;
+  border: 2px solid #007ab9;
+  color: #fff;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+footer #contact .content ul li i.yt:hover {
+  background: #ff0300;
+  border: 2px solid  #ff0300;
+  color: #fff;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+footer #contact .content ul li:nth-child(1) {
+  margin-left: 0;
+}
+footer #contact .text h5 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: MyriadArabic ;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+footer #contact .text p {
+  color: #c6c5c5;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 16px;
+}
+footer #contact .text .mail {
+  margin-top: 25px;
+  position: relative;
+}
+footer #contact .text .mail .em {
+  padding: 0 15px;
+  font-size: 16px;
+  color: #9a9a9a;
+  font-weight: 700;
+  font-family: MyriadArabic ;
+  line-height: 50px;
+  width: 70%;
+  background: #fff;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  -ms-border-bottom-left-radius: 5px;
+  -o-border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-top-left-radius: 5px;
+  -ms-border-top-left-radius: 5px;
+  -o-border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: none;
+}
+footer #contact .text .mail button {
+  background: #fcd733;
+  border: none;
+  color: #2f2f2f;
+  font-size: 16px;
+  font-family: MyriadArabic ;
+  font-weight: 700;
+  cursor: pointer;
+  line-height: 50px;
+  padding: 0 20px;
+  position: absolute;
+  border-bottom-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+footer .cpy {
+  margin-top: 60px;
+}
+footer .cpy p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #c6c5c5;
+  padding-bottom: 20px;
+}
+footer .text {
+  text-align: right;
+}
+/*===================== Footer End ======================*/
